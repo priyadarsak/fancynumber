@@ -11,7 +11,7 @@ date_default_timezone_set('Asia/Kolkata');
 $db_host = "localhost";
 $db_user = "root";
 $db_pass = "";
-$db_name = "jyoti_enterprises";
+$db_name = "fancynumber";
 
 $base_url = "http://localhost/jyoti/";
 
@@ -19,7 +19,7 @@ $base_url = "http://localhost/jyoti/";
 /* $db_host = "localhost";
 $db_user = "root";
 $db_pass = "";
-$db_name = "jyoti_enterprises";
+$db_name = "fancynumber";
 
 $base_url = "https://fancynumber.shop/"; */
 
