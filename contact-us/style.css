@@ -1,0 +1,94 @@
+.form-floating {
+  position: relative;
+}
+
+/* NEW STYLE FOR SELECT DROPDOWN */
+.form-select {
+  padding-right: 45px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.form-floating {
+  position: relative;
+}
+
+.input-icon {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.input-icon {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.contact-icon {
+  flex-shrink: 0;
+}
+
+.contact-form-card .form-control {
+  padding-right: 45px;
+  height: 56px;
+}
+
+.contact-form-card textarea.form-control {
+  height: 120px !important;
+  padding-top: 1.5rem;
+}
+
+.contact-info-card a:hover {
+  text-decoration: underline !important;
+  opacity: 0.9;
+}
+
+.social-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  transition: all 0.3s;
+}
+
+.social-links a:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateY(-3px);
+}
+
+/* Add to your existing CSS */
+.fa-spinner {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.alert {
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+@media (max-width: 991.98px) {
+
+  .contact-form-card,
+  .contact-info-card {
+    padding: 2rem !important;
+  }
+}
